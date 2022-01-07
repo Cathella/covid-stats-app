@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { fetchGetData } from "../redux/stats/main";
 import africa from '../assets/africa.png';
 import { getCountryData } from "../redux/stats/country";
-import Input from './Input';
+import Search from './Search';
 
 const Home = () => {
   const data = useSelector((state) => state.data);
@@ -33,7 +33,7 @@ const Home = () => {
           </p>
         </article>
       </section>
-      <Input data={data} />
+      <Search data={data} />
     </div>
   );
 }
