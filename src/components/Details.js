@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from 'react-router-dom';
-import Region from './RegionCard';
+import RegionCard from './RegionCard';
 
 const Details = () => {
   const location = useLocation();
@@ -21,7 +21,7 @@ const Details = () => {
         </p>
       </article>
       <span>REGION BREAKDOWN - 2021-12-15</span>
-      <Region data={regionInfo} />
+      <RegionCard data={regionInfo} />
     </>
   );
 };
