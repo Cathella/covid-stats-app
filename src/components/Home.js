@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchGetData } from "../redux/stats/main";
-import africa from '../assets/africa.png';
+// import africa from '../assets/africa.png';
 import { getCountryData } from "../redux/stats/country";
 import Search from './Search';
 
@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <div className="mainContainer">
       <section className="mainSection">
-        <img src={africa} alt="africa's map" className="brazilMap" />
+        {/* <img src={africa} alt="africa's map" className="brazilMap" /> */}
         <article className="mainHeader">
           <h2>AFRICA</h2>
           <p>

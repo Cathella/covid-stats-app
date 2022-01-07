@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import DataCard from './AllRegionsCard';
+import RegionCard from './RegionCard';
 
 const Search = (props) => {
   const { data } = props;
@@ -26,7 +26,7 @@ const Search = (props) => {
       <form>
         <input type="text" value={state.value} name="search" placeholder="Search by state name" onChange={handleChange} id="searchInput" />
       </form>
-      <DataCard data={searchResult} />
+      <RegionCard data={searchResult} />
     </>
   );
 }
