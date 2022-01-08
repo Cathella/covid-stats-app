@@ -13,8 +13,8 @@ describe('Region card loads as it should', () => {
         {
           href: '/api/2022-01-08/country/spain/region/canarias',
           rel: 'self',
-          type: 'GET'
-        }
+          type: 'GET',
+        },
       ],
       name: 'Canarias',
       name_es: 'Canarias',
@@ -35,7 +35,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_confirmed: 0.006336275175379047,
           today_vs_yesterday_deaths: null,
           yesterday_confirmed: 17676,
-          yesterday_deaths: 0
+          yesterday_deaths: 0,
         },
         {
           date: '2021-03-10',
@@ -51,7 +51,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_confirmed: 0.0,
           today_vs_yesterday_deaths: null,
           yesterday_confirmed: 428,
-          yesterday_deaths: 0
+          yesterday_deaths: 0,
         },
         {
           date: '2021-03-10',
@@ -67,7 +67,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_confirmed: 0.0,
           today_vs_yesterday_deaths: null,
           yesterday_confirmed: 218,
-          yesterday_deaths: 0
+          yesterday_deaths: 0,
         },
         {
           date: '2021-03-10',
@@ -83,7 +83,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_confirmed: 0.0024526198439240865,
           today_vs_yesterday_deaths: null,
           yesterday_confirmed: 4485,
-          yesterday_deaths: 0
+          yesterday_deaths: 0,
         },
         {
           date: '2021-03-10',
@@ -99,7 +99,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_confirmed: 0.013075611142694621,
           today_vs_yesterday_deaths: null,
           yesterday_confirmed: 1759,
-          yesterday_deaths: 0
+          yesterday_deaths: 0,
         },
         {
           date: '2021-03-10',
@@ -115,7 +115,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_confirmed: 0.0,
           today_vs_yesterday_deaths: null,
           yesterday_confirmed: 296,
-          yesterday_deaths: 0
+          yesterday_deaths: 0,
         },
         {
           date: '2021-03-10',
@@ -131,8 +131,8 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_confirmed: 0.004364555217366339,
           today_vs_yesterday_deaths: null,
           yesterday_confirmed: 17413,
-          yesterday_deaths: 0
-        }
+          yesterday_deaths: 0,
+        },
       ],
       today_confirmed: 177575,
       today_deaths: 1190,
@@ -157,7 +157,7 @@ describe('Region card loads as it should', () => {
       yesterday_intensive_care: 0,
       yesterday_open_cases: 168947,
       yesterday_recovered: null,
-      yesterday_total_hospitalised_patients: 0
+      yesterday_total_hospitalised_patients: 0,
     },
     {
       date: '2022-01-07',
@@ -166,8 +166,8 @@ describe('Region card loads as it should', () => {
         {
           href: '/api/2022-01-08/country/spain/region/madrid',
           rel: 'self',
-          type: 'GET'
-        }
+          type: 'GET',
+        },
       ],
       name: 'Madrid',
       name_es: 'Madrid',
@@ -197,7 +197,7 @@ describe('Region card loads as it should', () => {
       yesterday_intensive_care: 0,
       yesterday_open_cases: 1168474,
       yesterday_recovered: null,
-      yesterday_total_hospitalised_patients: 0
+      yesterday_total_hospitalised_patients: 0,
     },
     {
       date: '2022-01-07',
@@ -206,8 +206,8 @@ describe('Region card loads as it should', () => {
         {
           href: '/api/2022-01-08/country/spain/region/murcia',
           rel: 'self',
-          type: 'GET'
-        }
+          type: 'GET',
+        },
       ],
       name: 'Murcia',
       name_es: 'Murcia',
@@ -237,7 +237,7 @@ describe('Region card loads as it should', () => {
       yesterday_intensive_care: 0,
       yesterday_open_cases: 189548,
       yesterday_recovered: null,
-      yesterday_total_hospitalised_patients: 0
+      yesterday_total_hospitalised_patients: 0,
     },
     {
       date: '2022-01-07',
@@ -246,8 +246,8 @@ describe('Region card loads as it should', () => {
         {
           href: '/api/2022-01-08/country/spain/region/extremadura',
           rel: 'self',
-          type: 'GET'
-        }
+          type: 'GET',
+        },
       ],
       name: 'Extremadura',
       name_es: 'Extremadura',
@@ -272,7 +272,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: 0.00016290624745463056,
           yesterday_confirmed: 15734,
           yesterday_deaths: 460,
-          yesterday_recovered: 12277
+          yesterday_recovered: 12277,
         },
         {
           date: '2021-08-27',
@@ -292,7 +292,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: 0.0,
           yesterday_confirmed: 27321,
           yesterday_deaths: 309,
-          yesterday_recovered: 19702
+          yesterday_recovered: 19702,
         },
         {
           date: '2021-08-27',
@@ -312,7 +312,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: 0.0,
           yesterday_confirmed: 16855,
           yesterday_deaths: 230,
-          yesterday_recovered: 12414
+          yesterday_recovered: 12414,
         },
         {
           date: '2021-08-27',
@@ -332,7 +332,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: 0.8957789382071366,
           yesterday_confirmed: 10553,
           yesterday_deaths: 187,
-          yesterday_recovered: 4596
+          yesterday_recovered: 4596,
         },
         {
           date: '2021-08-27',
@@ -352,7 +352,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: 0.0005741846577860255,
           yesterday_confirmed: 13316,
           yesterday_deaths: 219,
-          yesterday_recovered: 8708
+          yesterday_recovered: 8708,
         },
         {
           date: '2021-08-27',
@@ -392,7 +392,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: 0.0,
           yesterday_confirmed: 3125,
           yesterday_deaths: 81,
-          yesterday_recovered: 2126
+          yesterday_recovered: 2126,
         },
         {
           date: '2021-08-27',
@@ -412,8 +412,8 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: 0.0011618900077459138,
           yesterday_confirmed: 7610,
           yesterday_deaths: 119,
-          yesterday_recovered: 5164
-        }
+          yesterday_recovered: 5164,
+        },
       ],
       today_confirmed: 151836,
       today_deaths: 2029,
@@ -438,7 +438,7 @@ describe('Region card loads as it should', () => {
       yesterday_intensive_care: 0,
       yesterday_open_cases: 144588,
       yesterday_recovered: null,
-      yesterday_total_hospitalised_patients: 0
+      yesterday_total_hospitalised_patients: 0,
     },
     {
       date: '2022-01-07',
@@ -447,8 +447,8 @@ describe('Region card loads as it should', () => {
         {
           href: '/api/2022-01-08/country/spain/region/andalucia',
           rel: 'self',
-          type: 'GET'
-        }
+          type: 'GET',
+        },
       ],
       name: 'Andalucía',
       name_es: 'Andalucía',
@@ -481,7 +481,7 @@ describe('Region card loads as it should', () => {
           yesterday_deaths: 959,
           yesterday_intensive_care: 810,
           yesterday_recovered: 19097,
-          yesterday_total_hospitalised_patients: 4711
+          yesterday_total_hospitalised_patients: 4711,
         },
         {
           date: '2022-01-07',
@@ -509,7 +509,7 @@ describe('Region card loads as it should', () => {
           yesterday_deaths: 1635,
           yesterday_intensive_care: 693,
           yesterday_recovered: 27665,
-          yesterday_total_hospitalised_patients: 6814
+          yesterday_total_hospitalised_patients: 6814,
         },
         {
           date: '2022-01-07',
@@ -537,7 +537,7 @@ describe('Region card loads as it should', () => {
           yesterday_deaths: 1127,
           yesterday_intensive_care: 707,
           yesterday_recovered: 23539,
-          yesterday_total_hospitalised_patients: 5757
+          yesterday_total_hospitalised_patients: 5757,
         },
         {
           date: '2022-01-07',
@@ -565,7 +565,7 @@ describe('Region card loads as it should', () => {
           yesterday_deaths: 1900,
           yesterday_intensive_care: 1196,
           yesterday_recovered: 43006,
-          yesterday_total_hospitalised_patients: 9602
+          yesterday_total_hospitalised_patients: 9602,
         },
         {
           date: '2022-01-07',
@@ -593,7 +593,7 @@ describe('Region card loads as it should', () => {
           yesterday_deaths: 427,
           yesterday_intensive_care: 232,
           yesterday_recovered: 9907,
-          yesterday_total_hospitalised_patients: 3079
+          yesterday_total_hospitalised_patients: 3079,
         },
         {
           date: '2022-01-07',
@@ -621,7 +621,7 @@ describe('Region card loads as it should', () => {
           yesterday_deaths: 1104,
           yesterday_intensive_care: 507,
           yesterday_recovered: 23211,
-          yesterday_total_hospitalised_patients: 5472
+          yesterday_total_hospitalised_patients: 5472,
         },
         {
           date: '2022-01-07',
@@ -649,7 +649,7 @@ describe('Region card loads as it should', () => {
           yesterday_deaths: 2070,
           yesterday_intensive_care: 1057,
           yesterday_recovered: 36105,
-          yesterday_total_hospitalised_patients: 11338
+          yesterday_total_hospitalised_patients: 11338,
         },
         {
           date: '2022-01-07',
@@ -677,7 +677,7 @@ describe('Region card loads as it should', () => {
           yesterday_deaths: 2385,
           yesterday_intensive_care: 1308,
           yesterday_recovered: 55229,
-          yesterday_total_hospitalised_patients: 13571
+          yesterday_total_hospitalised_patients: 13571,
         }
       ],
       today_confirmed: 1041565,
@@ -703,7 +703,7 @@ describe('Region card loads as it should', () => {
       yesterday_intensive_care: 0,
       yesterday_open_cases: 1004227,
       yesterday_recovered: null,
-      yesterday_total_hospitalised_patients: 0
+      yesterday_total_hospitalised_patients: 0,
     },
     {
       date: '2022-01-07',
@@ -712,8 +712,8 @@ describe('Region card loads as it should', () => {
         {
           href: '/api/2022-01-08/country/spain/region/castilla_y_leon',
           rel: 'self',
-          type: 'GET'
-        }
+          type: 'GET',
+        },
       ],
       name: 'Castilla y León',
       name_es: 'Castilla y León',
@@ -738,7 +738,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: 0.0,
           yesterday_confirmed: 26038,
           yesterday_deaths: 408,
-          yesterday_recovered: 2100
+          yesterday_recovered: 2100,
         },
         {
           date: '2022-01-07',
@@ -758,7 +758,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: 0.0007593014426727773,
           yesterday_confirmed: 73236,
           yesterday_deaths: 832,
-          yesterday_recovered: 5268
+          yesterday_recovered: 5268,
         },
         {
           date: '2022-01-07',
@@ -778,7 +778,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: 0.0009910802775023875,
           yesterday_confirmed: 73934,
           yesterday_deaths: 1283,
-          yesterday_recovered: 6054
+          yesterday_recovered: 6054,
         },
         {
           date: '2022-01-07',
@@ -798,7 +798,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: 0.0011106997408367736,
           yesterday_confirmed: 36568,
           yesterday_deaths: 519,
-          yesterday_recovered: 2701
+          yesterday_recovered: 2701,
         },
         {
           date: '2022-01-07',
@@ -818,7 +818,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: 0.0010945709281962035,
           yesterday_confirmed: 58399,
           yesterday_deaths: 917,
-          yesterday_recovered: 4568
+          yesterday_recovered: 4568,
         },
         {
           date: '2022-01-07',
@@ -838,7 +838,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: 0.0,
           yesterday_confirmed: 30908,
           yesterday_deaths: 387,
-          yesterday_recovered: 2098
+          yesterday_recovered: 2098,
         },
         {
           date: '2022-01-07',
@@ -858,7 +858,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: 0.0,
           yesterday_confirmed: 17720,
           yesterday_deaths: 304,
-          yesterday_recovered: 1469
+          yesterday_recovered: 1469,
         },
         {
           date: '2022-01-07',
@@ -878,7 +878,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: 0.0007957258156190417,
           yesterday_confirmed: 107163,
           yesterday_deaths: 1345,
-          yesterday_recovered: 8797
+          yesterday_recovered: 8797,
         },
         {
           date: '2022-01-07',
@@ -898,8 +898,8 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: 0.0008680555555555802,
           yesterday_confirmed: 25436,
           yesterday_deaths: 477,
-          yesterday_recovered: 2304
-        }
+          yesterday_recovered: 2304,
+        },
       ],
       today_confirmed: 448333,
       today_deaths: 7583,
@@ -924,7 +924,7 @@ describe('Region card loads as it should', () => {
       yesterday_intensive_care: 0,
       yesterday_open_cases: 425342,
       yesterday_recovered: null,
-      yesterday_total_hospitalised_patients: 0
+      yesterday_total_hospitalised_patients: 0,
     },
     {
       date: '2022-01-07',
@@ -933,8 +933,8 @@ describe('Region card loads as it should', () => {
         {
           href: '/api/2022-01-08/country/spain/region/c_valenciana',
           rel: 'self',
-          type: 'GET'
-        }
+          type: 'GET',
+        },
       ],
       name: 'C. Valenciana',
       name_es: 'C. Valenciana',
@@ -959,7 +959,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: 0.0012747865432971572,
           yesterday_confirmed: 0,
           yesterday_deaths: 2606,
-          yesterday_recovered: 142769
+          yesterday_recovered: 142769,
         },
         {
           date: '2022-01-07',
@@ -979,7 +979,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: 0.0017873100983021306,
           yesterday_confirmed: 0,
           yesterday_deaths: 766,
-          yesterday_recovered: 39165
+          yesterday_recovered: 39165,
         },
         {
           date: '2022-01-07',
@@ -999,8 +999,8 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: 0.0012871436472421394,
           yesterday_confirmed: 0,
           yesterday_deaths: 3539,
-          yesterday_recovered: 198890
-        }
+          yesterday_recovered: 198890,
+        },
       ],
       today_confirmed: 713156,
       today_deaths: 8170,
@@ -1025,7 +1025,7 @@ describe('Region card loads as it should', () => {
       yesterday_intensive_care: 0,
       yesterday_open_cases: 676149,
       yesterday_recovered: null,
-      yesterday_total_hospitalised_patients: 0
+      yesterday_total_hospitalised_patients: 0,
     },
     {
       date: '2022-01-07',
@@ -1065,7 +1065,7 @@ describe('Region card loads as it should', () => {
       yesterday_intensive_care: 0,
       yesterday_open_cases: 56172,
       yesterday_recovered: null,
-      yesterday_total_hospitalised_patients: 0
+      yesterday_total_hospitalised_patients: 0,
     },
     {
       date: '2022-01-07',
@@ -1074,8 +1074,8 @@ describe('Region card loads as it should', () => {
         {
           href: '/api/2022-01-08/country/spain/region/melilla',
           rel: 'self',
-          type: 'GET'
-        }
+          type: 'GET',
+        },
       ],
       name: 'Melilla',
       name_es: 'Melilla',
@@ -1105,7 +1105,7 @@ describe('Region card loads as it should', () => {
       yesterday_intensive_care: 0,
       yesterday_open_cases: 13540,
       yesterday_recovered: null,
-      yesterday_total_hospitalised_patients: 0
+      yesterday_total_hospitalised_patients: 0,
     },
     {
       date: '2022-01-07',
@@ -1114,8 +1114,8 @@ describe('Region card loads as it should', () => {
         {
           href: '/api/2022-01-08/country/spain/region/cantabria',
           rel: 'self',
-          type: 'GET'
-        }
+          type: 'GET',
+        },
       ],
       name: 'Cantabria',
       name_es: 'Cantabria',
@@ -1145,7 +1145,7 @@ describe('Region card loads as it should', () => {
       yesterday_intensive_care: 0,
       yesterday_open_cases: 67038,
       yesterday_recovered: null,
-      yesterday_total_hospitalised_patients: 0
+      yesterday_total_hospitalised_patients: 0,
     },
     {
       date: '2022-01-07',
@@ -1154,8 +1154,8 @@ describe('Region card loads as it should', () => {
         {
           href: '/api/2022-01-08/country/spain/region/pais_vasco',
           rel: 'self',
-          type: 'GET'
-        }
+          type: 'GET',
+        },
       ],
       name: 'País Vasco',
       name_es: 'País Vasco',
@@ -1180,7 +1180,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: null,
           yesterday_confirmed: 59501,
           yesterday_deaths: 0,
-          yesterday_recovered: 0
+          yesterday_recovered: 0,
         },
         {
           date: '2022-01-05',
@@ -1200,7 +1200,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: null,
           yesterday_confirmed: 217393,
           yesterday_deaths: 0,
-          yesterday_recovered: 0
+          yesterday_recovered: 0,
         },
         {
           date: '2022-01-05',
@@ -1220,8 +1220,8 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: null,
           yesterday_confirmed: 159677,
           yesterday_deaths: 0,
-          yesterday_recovered: 0
-        }
+          yesterday_recovered: 0,
+        },
       ],
       today_confirmed: 450442,
       today_deaths: 5192,
@@ -1246,7 +1246,7 @@ describe('Region card loads as it should', () => {
       yesterday_intensive_care: 0,
       yesterday_open_cases: 423131,
       yesterday_recovered: null,
-      yesterday_total_hospitalised_patients: 0
+      yesterday_total_hospitalised_patients: 0,
     },
     {
       date: '2022-01-07',
@@ -1255,8 +1255,8 @@ describe('Region card loads as it should', () => {
         {
           href: '/api/2022-01-08/country/spain/region/aragon',
           rel: 'self',
-          type: 'GET'
-        }
+          type: 'GET',
+        },
       ],
       name: 'Aragón',
       name_es: 'Aragón',
@@ -1281,7 +1281,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: null,
           yesterday_confirmed: 177693,
           yesterday_deaths: 0,
-          yesterday_recovered: 0
+          yesterday_recovered: 0,
         },
         {
           date: '2022-01-05',
@@ -1301,7 +1301,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: null,
           yesterday_confirmed: 41136,
           yesterday_deaths: 0,
-          yesterday_recovered: 0
+          yesterday_recovered: 0,
         },
         {
           date: '2022-01-05',
@@ -1321,7 +1321,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_recovered: null,
           yesterday_confirmed: 23310,
           yesterday_deaths: 0,
-          yesterday_recovered: 0
+          yesterday_recovered: 0,
         }
       ],
       today_confirmed: 254032,
@@ -1347,7 +1347,7 @@ describe('Region card loads as it should', () => {
       yesterday_intensive_care: 0,
       yesterday_open_cases: 239819,
       yesterday_recovered: null,
-      yesterday_total_hospitalised_patients: 0
+      yesterday_total_hospitalised_patients: 0,
     },
     {
       date: '2022-01-07',
@@ -1356,8 +1356,8 @@ describe('Region card loads as it should', () => {
         {
           href: '/api/2022-01-08/country/spain/region/asturias',
           rel: 'self',
-          type: 'GET'
-        }
+          type: 'GET',
+        },
       ],
       name: 'Asturias',
       name_es: 'Asturias',
@@ -1387,7 +1387,7 @@ describe('Region card loads as it should', () => {
       yesterday_intensive_care: 0,
       yesterday_open_cases: 106042,
       yesterday_recovered: null,
-      yesterday_total_hospitalised_patients: 0
+      yesterday_total_hospitalised_patients: 0,
     },
     {
       date: '2022-01-07',
@@ -1396,8 +1396,8 @@ describe('Region card loads as it should', () => {
         {
           href: '/api/2022-01-08/country/spain/region/navarra',
           rel: 'self',
-          type: 'GET'
-        }
+          type: 'GET',
+        },
       ],
       name: 'Navarra',
       name_es: 'Navarra',
@@ -1427,7 +1427,7 @@ describe('Region card loads as it should', () => {
       yesterday_intensive_care: 0,
       yesterday_open_cases: 145041,
       yesterday_recovered: null,
-      yesterday_total_hospitalised_patients: 0
+      yesterday_total_hospitalised_patients: 0,
     },
     {
       date: '2022-01-07',
@@ -1436,8 +1436,8 @@ describe('Region card loads as it should', () => {
         {
           href: '/api/2022-01-08/country/spain/region/baleares',
           rel: 'self',
-          type: 'GET'
-        }
+          type: 'GET',
+        },
       ],
       name: 'Baleares',
       name_es: 'Baleares',
@@ -1467,7 +1467,7 @@ describe('Region card loads as it should', () => {
       yesterday_intensive_care: 0,
       yesterday_open_cases: 142669,
       yesterday_recovered: null,
-      yesterday_total_hospitalised_patients: 0
+      yesterday_total_hospitalised_patients: 0,
     },
     {
       date: '2022-01-07',
@@ -1476,8 +1476,8 @@ describe('Region card loads as it should', () => {
         {
           href: '/api/2022-01-08/country/spain/region/cataluna',
           rel: 'self',
-          type: 'GET'
-        }
+          type: 'GET',
+        },
       ],
       name: 'Cataluña',
       name_es: 'Cataluña',
@@ -1494,7 +1494,7 @@ describe('Region card loads as it should', () => {
           today_confirmed: 1059584,
           today_new_confirmed: 3136,
           today_vs_yesterday_confirmed: 0.002968437632519638,
-          yesterday_confirmed: 1056448
+          yesterday_confirmed: 1056448,
         },
         {
           date: '2022-01-06',
@@ -1506,7 +1506,7 @@ describe('Region card loads as it should', () => {
           today_confirmed: 135489,
           today_new_confirmed: 569,
           today_vs_yesterday_confirmed: 0.004217313963830405,
-          yesterday_confirmed: 134920
+          yesterday_confirmed: 134920,
         },
         {
           date: '2022-01-06',
@@ -1518,7 +1518,7 @@ describe('Region card loads as it should', () => {
           today_confirmed: 81345,
           today_new_confirmed: 403,
           today_vs_yesterday_confirmed: 0.004978873761458891,
-          yesterday_confirmed: 80942
+          yesterday_confirmed: 80942,
         },
         {
           date: '2022-01-06',
@@ -1530,8 +1530,8 @@ describe('Region card loads as it should', () => {
           today_confirmed: 115621,
           today_new_confirmed: 619,
           today_vs_yesterday_confirmed: 0.005382515086694184,
-          yesterday_confirmed: 115002
-        }
+          yesterday_confirmed: 115002,
+        },
       ],
       today_confirmed: 1333517,
       today_deaths: 16144,
@@ -1556,7 +1556,7 @@ describe('Region card loads as it should', () => {
       yesterday_intensive_care: 0,
       yesterday_open_cases: 1270029,
       yesterday_recovered: null,
-      yesterday_total_hospitalised_patients: 0
+      yesterday_total_hospitalised_patients: 0,
     },
     {
       date: '2022-01-07',
@@ -1565,8 +1565,8 @@ describe('Region card loads as it should', () => {
         {
           href: '/api/2022-01-08/country/spain/region/galicia',
           rel: 'self',
-          type: 'GET'
-        }
+          type: 'GET',
+        },
       ],
       name: 'Galicia',
       name_es: 'Galicia',
@@ -1583,7 +1583,7 @@ describe('Region card loads as it should', () => {
           today_confirmed: 59763,
           today_new_confirmed: 452,
           today_vs_yesterday_confirmed: 0.00762084604879365,
-          yesterday_confirmed: 59311
+          yesterday_confirmed: 59311,
         },
         {
           date: '2022-01-07',
@@ -1595,7 +1595,7 @@ describe('Region card loads as it should', () => {
           today_confirmed: 28770,
           today_new_confirmed: 264,
           today_vs_yesterday_confirmed: 0.00926120816670184,
-          yesterday_confirmed: 28506
+          yesterday_confirmed: 28506,
         },
         {
           date: '2022-01-07',
@@ -1607,7 +1607,7 @@ describe('Region card loads as it should', () => {
           today_confirmed: 35660,
           today_new_confirmed: 426,
           today_vs_yesterday_confirmed: 0.012090594312311964,
-          yesterday_confirmed: 35234
+          yesterday_confirmed: 35234,
         },
         {
           date: '2022-01-07',
@@ -1619,7 +1619,7 @@ describe('Region card loads as it should', () => {
           today_confirmed: 33322,
           today_new_confirmed: 235,
           today_vs_yesterday_confirmed: 0.007102487381751121,
-          yesterday_confirmed: 33087
+          yesterday_confirmed: 33087,
         },
         {
           date: '2022-01-07',
@@ -1631,7 +1631,7 @@ describe('Region card loads as it should', () => {
           today_confirmed: 61468,
           today_new_confirmed: 447,
           today_vs_yesterday_confirmed: 0.007325347011684524,
-          yesterday_confirmed: 61021
+          yesterday_confirmed: 61021,
         },
         {
           date: '2022-01-07',
@@ -1643,7 +1643,7 @@ describe('Region card loads as it should', () => {
           today_confirmed: 42004,
           today_new_confirmed: 486,
           today_vs_yesterday_confirmed: 0.011705766173707888,
-          yesterday_confirmed: 41518
+          yesterday_confirmed: 41518,
         },
         {
           date: '2022-01-07',
@@ -1655,8 +1655,8 @@ describe('Region card loads as it should', () => {
           today_confirmed: 17089,
           today_new_confirmed: 143,
           today_vs_yesterday_confirmed: 0.008438569573940846,
-          yesterday_confirmed: 16946
-        }
+          yesterday_confirmed: 16946,
+        },
       ],
       today_confirmed: 293755,
       today_deaths: 2798,
@@ -1681,7 +1681,7 @@ describe('Region card loads as it should', () => {
       yesterday_intensive_care: 0,
       yesterday_open_cases: 277218,
       yesterday_recovered: null,
-      yesterday_total_hospitalised_patients: 0
+      yesterday_total_hospitalised_patients: 0,
     },
     {
       date: '2022-01-07',
@@ -1690,8 +1690,8 @@ describe('Region card loads as it should', () => {
         {
           href: '/api/2022-01-08/country/spain/region/castilla-la_mancha',
           rel: 'self',
-          type: 'GET'
-        }
+          type: 'GET',
+        },
       ],
       name: 'Castilla-La Mancha',
       name_es: 'Castilla-La Mancha',
@@ -1712,7 +1712,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_confirmed: 0.0007022143158090799,
           today_vs_yesterday_deaths: 0.0,
           yesterday_confirmed: 42722,
-          yesterday_deaths: 1676
+          yesterday_deaths: 1676,
         },
         {
           date: '2021-03-10',
@@ -1728,7 +1728,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_confirmed: 0.000684808073526666,
           today_vs_yesterday_deaths: 0.0011481056257176547,
           yesterday_confirmed: 27745,
-          yesterday_deaths: 871
+          yesterday_deaths: 871,
         },
         {
           date: '2021-03-10',
@@ -1744,7 +1744,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_confirmed: 0.0009945779460360793,
           today_vs_yesterday_deaths: 0.0009638554216866435,
           yesterday_confirmed: 62338,
-          yesterday_deaths: 2075
+          yesterday_deaths: 2075,
         },
         {
           date: '2021-03-10',
@@ -1760,7 +1760,7 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_confirmed: 0.0026146898027097354,
           today_vs_yesterday_deaths: 0.0,
           yesterday_confirmed: 21035,
-          yesterday_deaths: 585
+          yesterday_deaths: 585,
         },
         {
           date: '2021-03-10',
@@ -1776,8 +1776,8 @@ describe('Region card loads as it should', () => {
           today_vs_yesterday_confirmed: 0.00011118523460074137,
           today_vs_yesterday_deaths: 0.001879699248120259,
           yesterday_confirmed: 17988,
-          yesterday_deaths: 532
-        }
+          yesterday_deaths: 532,
+        },
       ],
       today_confirmed: 326076,
       today_deaths: 6612,
@@ -1802,7 +1802,7 @@ describe('Region card loads as it should', () => {
       yesterday_intensive_care: 0,
       yesterday_open_cases: 304581,
       yesterday_recovered: null,
-      yesterday_total_hospitalised_patients: 0
+      yesterday_total_hospitalised_patients: 0,
     },
     {
       date: '2022-01-07',
@@ -1811,8 +1811,8 @@ describe('Region card loads as it should', () => {
         {
           href: '/api/2022-01-08/country/spain/region/ceuta',
           rel: 'self',
-          type: 'GET'
-        }
+          type: 'GET',
+        },
       ],
       name: 'Ceuta',
       name_es: 'Ceuta',
@@ -1842,8 +1842,8 @@ describe('Region card loads as it should', () => {
       yesterday_intensive_care: 0,
       yesterday_open_cases: 10074,
       yesterday_recovered: null,
-      yesterday_total_hospitalised_patients: 0
-    }
+      yesterday_total_hospitalised_patients: 0,
+    },
   ];
   
   it('Should be rendering 19 regions', () => {
