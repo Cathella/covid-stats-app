@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { fetchGetData } from "../redux/stats/main";
-import { getCountryData } from "../redux/stats/country";
+import React, { useEffect, useState } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { fetchGetData } from '../redux/stats/main';
+import { getCountryData } from '../redux/stats/country';
 import Search from './Search';
 import './Home.css';
 import './Card.css';
@@ -47,6 +47,6 @@ const Home = () => {
       <Search data={data} />
     </div>
   );
-}
+};
 
 export default Home;
