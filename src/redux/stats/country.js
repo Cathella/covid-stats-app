@@ -28,9 +28,6 @@ export const getCountryData = (date, country) => async (dispatch) => {
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_COUNTRY_STATS:
-      if (state !== initialState) {
-        return state;
-      }
       return action.payload;
     case HANDLE_FETCH_ERROR:
       return state;
