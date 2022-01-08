@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+:root {
+  --main: #4066ae;
+  --first: #437ae0;
+  --second: #3a6fd1;
+  --third: #3661b1;
+  --dark: #2e4b80;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+*:focus { outline: none; }
+
+html {
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--first);
+}
+
+a { text-decoration: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 700;
+}
+
+b { font-weight: 700; }
+
+footer {
+  background-color: var(--dark);
+  font-weight: 300;
+  font-size: 12px;
+  padding: 0.5em;
+}
+
+footer a { font-weight: 500; }
