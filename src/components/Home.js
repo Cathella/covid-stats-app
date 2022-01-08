@@ -1,7 +1,6 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchGetData } from "../redux/stats/main";
-// import africa from '../assets/africa.png';
 import { getCountryData } from "../redux/stats/country";
 import Search from './Search';
 
@@ -9,23 +8,33 @@ const Home = () => {
   const data = useSelector((state) => state.data);
   const country = useSelector((state) => state.country);
   const dispatch = useDispatch();
+  const date = new Date();
+  const newDate = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
+
+  const [inputDate, setInputDate] = useState(newDate);
 
   useEffect(() => {
-    dispatch(fetchGetData('2021-12-15', 'Africa'));
-  }, []);
+    dispatch(fetchGetData(inputDate, 'Spain'));
+  }, [inputDate]);
 
   useEffect(() => {
-    dispatch(getCountryData('2021-12-15', 'Africa'));
-  }, []);
+    dispatch(getCountryData(inputDate, 'Spain'));
+  }, [inputDate]);
+
+  const handleChange = (e) => {
+    setInputDate(e.target.value);
+  };
 
   return (
     <div className="mainContainer">
       <section className="mainSection">
-        {/* <img src={africa} alt="africa's map" className="brazilMap" /> */}
         <article className="mainHeader">
-          <h2>AFRICA</h2>
+          <h2>SPAIN</h2>
           <p>
-            Cases confirmed today:
+            Cases confirmed on
+            {' '}
+            <input type="date" className="date" name="date" value={inputDate} onChange={handleChange} />
+            :
             <br />
             {country.today_new_confirmed}
             <br />
