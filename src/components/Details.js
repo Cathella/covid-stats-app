@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FaAngleLeft } from 'react-icons/fa';
-import RegionCard from './RegionCard';
+import Region from './Region';
 import './Details.css';
 
 const Details = () => {
@@ -10,7 +10,7 @@ const Details = () => {
 
   return (
     <>
-      <Link to="/main" className="backButton">
+      <Link to="/home" className="backButton">
         <b><FaAngleLeft /></b>
       </Link>
       <article className="regionTitle">
@@ -28,7 +28,7 @@ const Details = () => {
         {' '}
         {regionInfo.date}
       </span>
-      <RegionCard data={regionInfo} />
+      <Region data={regionInfo} />
     </>
   );
 };

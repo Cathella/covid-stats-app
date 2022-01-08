@@ -1,7 +1,7 @@
 header {
   background-color: var(--dark);
   width: 100vw;
-  height: 25px;
+  height: 40px;
   box-sizing: border-box;
   padding-left: 10px;
   display: flex;
