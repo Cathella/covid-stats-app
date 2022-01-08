@@ -50,7 +50,7 @@ To launch the test runner in the interactive watch mode, run `$ npm test` in you
 > To read more information about running tests, visit [create react app website](https://create-react-app.dev/docs/running-tests/);
 
 ### Live server
-Optionally, you can run the application [here]().
+Optionally, you can run the application [here](https://compassionate-nightingale-86bf87.netlify.app/).
 
 ## Author 👤
 
