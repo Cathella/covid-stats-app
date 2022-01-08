@@ -7,8 +7,9 @@
 # Covid-Stats-App
 Covid-tracker is a website that allows users to have access to the latest covid data in Brazil. They can also filter by region name, as well as get more informations on that specific region by clicking on it.
 
-![screenshot](./countries.PNG)
-![screenshot](./details.PNG)
+| Countries Page | Details Page |
+| --- | --- |
+| ![screenshot](./countries.PNG) | ![screenshot](./details.PNG) |
 
 ## Built With
 
