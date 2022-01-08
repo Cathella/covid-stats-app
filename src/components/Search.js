@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import RegionCard from './RegionCard';
 
 const Search = (props) => {
@@ -24,11 +25,18 @@ const Search = (props) => {
   return (
     <>
       <form>
-        <input type="text" value={state.value} name="search" placeholder="Search by state name" onChange={handleChange} class="searchInput" />
+        <input type="text" value={state.value} name="search" placeholder="Search by state name" onChange={handleChange} className="searchInput" />
       </form>
       <RegionCard data={searchResult} />
     </>
   );
+};
+
+Search.propTypes = {
+  data: PropTypes.shape({
+    indexOf: PropTypes.string.isRequired,
+    data: PropTypes.arrayOf(PropTypes.string).isRequired,
+  }).isRequired,
 };
 
 export default Search;
