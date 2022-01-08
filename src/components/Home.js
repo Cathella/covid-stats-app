@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { fetchGetData } from "../redux/stats/main";
 import { getCountryData } from "../redux/stats/country";
 import Search from './Search';
+import './Home.css';
 
 const Home = () => {
   const data = useSelector((state) => state.data);
