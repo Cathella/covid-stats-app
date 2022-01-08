@@ -1,5 +1,5 @@
-/* eslint-disable react/prop-types */
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Region = (props) => {
   const { data } = props;
@@ -41,6 +41,18 @@ const Region = (props) => {
       </section>
     </>
   );
+};
+
+Region.propTypes = {
+  data: PropTypes.shape({
+    today_new_confirmed: PropTypes.string.isRequired,
+    today_new_deaths: PropTypes.string.isRequired,
+    today_new_recovered: PropTypes.string.isRequired,
+    today_new_open_cases: PropTypes.string.isRequired,
+    today_deaths: PropTypes.string.isRequired,
+    today_recovered: PropTypes.string.isRequired,
+    today_open_cases: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default Region;

@@ -1,4 +1,4 @@
-#searchInput {
+.searchInput {
   background-color: var(--dark);
   width: 100vw;
   height: 40px;
@@ -6,7 +6,7 @@
   padding-left: 10px;
 }
 
-#searchInput::placeholder {
+.searchInput::placeholder {
   color: rgb(230, 230, 230);
 }
 

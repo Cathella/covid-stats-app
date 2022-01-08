@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import React, { useState } from 'react';
 import RegionCard from './RegionCard';
 
@@ -25,7 +24,7 @@ const Search = (props) => {
   return (
     <>
       <form>
-        <input type="text" value={state.value} name="search" placeholder="Search by state name" onChange={handleChange} id="searchInput" />
+        <input type="text" value={state.value} name="search" placeholder="Search by state name" onChange={handleChange} class="searchInput" />
       </form>
       <RegionCard data={searchResult} />
     </>
