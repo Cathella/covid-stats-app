@@ -1,11 +1,12 @@
-import React from "react";
+/* eslint-disable react/prop-types */
+import { React } from 'react';
 import { Link } from 'react-router-dom';
 
 const RegionCard = (props) => {
   const { data } = props;
 
   return (
-    <ul>
+    <ul className="stateList">
       {data.map((info) => (
         <li key={data.indexOf(info)} className="stateCard">
           <Link

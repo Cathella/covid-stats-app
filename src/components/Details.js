@@ -1,5 +1,6 @@
-import React from "react";
+import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { FaAngleLeft } from 'react-icons/fa';
 import RegionCard from './RegionCard';
 
 const Details = () => {
@@ -8,19 +9,24 @@ const Details = () => {
 
   return (
     <>
-      <Link to="/home">
-        <b>-</b>
+      <Link to="/main" className="backButton">
+        <b><FaAngleLeft /></b>
       </Link>
-      <article>
+      <article className="regionTitle">
         <h2>{regionInfo.name}</h2>
         <p>
+          Total cases confirmed:
+          <br />
           {regionInfo.today_confirmed}
-          {' '}
           <br />
           **
         </p>
       </article>
-      <span>REGION BREAKDOWN - 2021-12-15</span>
+      <span className="regionBanner">
+        REGION BREAKDOWN -
+        {' '}
+        {regionInfo.date}
+      </span>
       <RegionCard data={regionInfo} />
     </>
   );
