@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { useState } from 'react';
 import RegionCard from './RegionCard';
 
@@ -29,6 +30,6 @@ const Search = (props) => {
       <RegionCard data={searchResult} />
     </>
   );
-}
+};
 
 export default Search;
