@@ -1,0 +1,56 @@
+.backButton {
+  position: absolute;
+  margin: 10px 8px;
+  font-size: x-large;
+  align-self: flex-start;
+}
+
+.regionTitle {
+  height: 30vw;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.regionTitle p {
+  text-align: left;
+}
+
+.regionBanner {
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+  background-color: var(--dark);
+  width: 100vw;
+  height: 25px;
+  font-size: 12px;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+
+.regionTodayContainer article,
+.regionOverallContainer article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2em;
+  padding: 1em;
+}
+
+.regionTodayContainer article b,
+.regionOverallContainer article b {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.regionTodayContainer article:nth-child(odd),
+.regionOverallContainer article:nth-child(even) {
+  background-color: var(--second);
+}
+
+.regionTodayContainer article:nth-child(even),
+.regionOverallContainer article:nth-child(odd) {
+  background-color: var(--third);
+}

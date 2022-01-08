@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FaAngleLeft } from 'react-icons/fa';
 import RegionCard from './RegionCard';
+import './Details.css';
 
 const Details = () => {
   const location = useLocation();
