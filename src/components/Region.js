@@ -45,13 +45,13 @@ const Region = (props) => {
 
 Region.propTypes = {
   data: PropTypes.shape({
-    today_new_confirmed: PropTypes.string.isRequired,
-    today_new_deaths: PropTypes.string.isRequired,
-    today_new_recovered: PropTypes.string.isRequired,
-    today_new_open_cases: PropTypes.string.isRequired,
-    today_deaths: PropTypes.string.isRequired,
-    today_recovered: PropTypes.string.isRequired,
-    today_open_cases: PropTypes.string.isRequired,
+    today_new_confirmed: PropTypes.number.isRequired,
+    today_new_deaths: PropTypes.number.isRequired,
+    today_new_recovered: PropTypes.number.isRequired,
+    today_new_open_cases: PropTypes.number.isRequired,
+    today_deaths: PropTypes.number.isRequired,
+    today_recovered: PropTypes.number.isRequired,
+    today_open_cases: PropTypes.number.isRequired,
   }).isRequired,
 };
 

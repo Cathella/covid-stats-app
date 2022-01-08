@@ -31,7 +31,7 @@ const RegionCard = (props) => {
 RegionCard.propTypes = {
   data: PropTypes.shape({
     indexOf: PropTypes.string.isRequired,
-    data: PropTypes.arrayOf(PropTypes.string).isRequired,
+    data: PropTypes.objectOf(PropTypes.string).isRequired,
   }).isRequired,
 };
 
