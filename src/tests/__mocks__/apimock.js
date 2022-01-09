@@ -365,7 +365,7 @@ const allData = [
         today_vs_yesterday_recovered: 0.0006079027355623268,
         yesterday_confirmed: 4514,
         yesterday_deaths: 108,
-        yesterday_recovered: 3290
+        yesterday_recovered: 3290,
       },
       {
         date: '2021-08-27',
@@ -671,7 +671,7 @@ const allData = [
         yesterday_intensive_care: 1308,
         yesterday_recovered: 55229,
         yesterday_total_hospitalised_patients: 13571,
-      }
+      },
     ],
     today_confirmed: 1041565,
     today_deaths: 11537,
@@ -1027,8 +1027,8 @@ const allData = [
       {
         href: '/api/2022-01-08/country/spain/region/la_rioja',
         rel: 'self',
-        type: 'GET'
-      }
+        type: 'GET',
+      },
     ],
     name: 'La Rioja',
     name_es: 'La Rioja',
@@ -1315,7 +1315,7 @@ const allData = [
         yesterday_confirmed: 23310,
         yesterday_deaths: 0,
         yesterday_recovered: 0,
-      }
+      },
     ],
     today_confirmed: 254032,
     today_deaths: 4137,
