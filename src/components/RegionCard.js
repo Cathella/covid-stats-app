@@ -37,7 +37,7 @@ RegionCard.propTypes = {
           today_new_confirmed: PropTypes.string.isRequired,
         }),
       ),
-    })
+    }).isRequired,
   ),
 };
 
