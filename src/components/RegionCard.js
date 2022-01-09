@@ -29,10 +29,16 @@ const RegionCard = (props) => {
 };
 
 RegionCard.propTypes = {
-  data: PropTypes.shape({
-    indexOf: PropTypes.string.isRequired,
-    data: PropTypes.objectOf(PropTypes.string).isRequired,
-  }).isRequired,
+  data: PropTypes.objectOf(
+    PropTypes.shape({
+      info: PropTypes.objectOf(
+        PropTypes.shape({
+          name: PropTypes.string.isRequired,
+          today_new_confirmed: PropTypes.string.isRequired,
+        }),
+      ),
+    })
+  ),
 };
 
 export default RegionCard;

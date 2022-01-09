@@ -1845,7 +1845,7 @@ describe('Region card loads as it should', () => {
       yesterday_total_hospitalised_patients: 0,
     },
   ];
-  
+
   it('Should be rendering 19 regions', () => {
     render(<BrowserRouter><RegionCard data={data} /></BrowserRouter>);
 

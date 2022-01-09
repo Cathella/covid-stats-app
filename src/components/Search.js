@@ -33,10 +33,11 @@ const Search = (props) => {
 };
 
 Search.propTypes = {
-  data: PropTypes.shape({
-    indexOf: PropTypes.string.isRequired,
-    data: PropTypes.arrayOf(PropTypes.string).isRequired,
-  }).isRequired,
+  data: PropTypes.arrayOf(
+    PropTypes.shape({
+      info: PropTypes.objectOf(PropTypes.string).isRequired,
+    })
+  ),
 };
 
 export default Search;
