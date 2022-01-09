@@ -33,11 +33,7 @@ const Search = (props) => {
 };
 
 Search.propTypes = {
-  data: PropTypes.objectOf(
-    PropTypes.shape({
-      info: PropTypes.objectOf(PropTypes.string).isRequired,
-    }).isRequired,
-  ),
+  data: PropTypes.objectOf(PropTypes.string).isRequired,
 };
 
 export default Search;
